@@ -1,0 +1,18 @@
+{
+  "name": "codex-import",
+  "owner": {
+    "name": "codex-import"
+  },
+  "metadata": {
+    "description": "Bring your Codex CLI conversation history into Claude Code.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "codex-import",
+      "description": "List local Codex sessions and load one into Claude Code as context.",
+      "version": "0.1.0",
+      "source": "./plugins/codex-import"
+    }
+  ]
+}

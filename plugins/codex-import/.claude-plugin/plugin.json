@@ -1,0 +1,6 @@
+{
+  "name": "codex-import",
+  "version": "0.1.0",
+  "description": "List local Codex sessions and load one into Claude Code as context.",
+  "keywords": ["codex", "history", "import", "handoff"]
+}
