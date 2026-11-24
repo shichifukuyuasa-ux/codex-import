@@ -1,0 +1,6 @@
+{
+  "name": "codex-debate",
+  "version": "0.1.0",
+  "description": "Have Claude and Codex debate a question over several rounds, then reach a written conclusion.",
+  "keywords": ["codex", "debate", "second-opinion", "review"]
+}

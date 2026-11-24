@@ -4,7 +4,7 @@
     "name": "codex-import"
   },
   "metadata": {
-    "description": "Bring your Codex CLI conversation history into Claude Code.",
+    "description": "Claude Code plugins for working with Codex: import Codex history, debate with Codex.",
     "version": "0.1.0"
   },
   "plugins": [
@@ -13,6 +13,12 @@
       "description": "List local Codex sessions and load one into Claude Code as context.",
       "version": "0.1.0",
       "source": "./plugins/codex-import"
+    },
+    {
+      "name": "codex-debate",
+      "description": "Have Claude and Codex debate a question over several rounds, then reach a written conclusion.",
+      "version": "0.1.0",
+      "source": "./plugins/codex-debate"
     }
   ]
 }
